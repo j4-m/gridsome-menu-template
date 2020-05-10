@@ -1,0 +1,32 @@
+{
+  "links": [
+    {
+      "link": {
+        "title": "Horses",
+        "url": "/horses"
+      },
+      "children": [
+        {
+          "link": {
+            "title": "Mustang",
+            "url": "/horses/mustang"
+          }
+        },
+        {
+          "link": {
+            "title": "Pony",
+            "url": "/horses/pony"
+          }
+        }
+      ]
+    },
+    {
+      "link": {
+        "title": "Dinosaurs",
+        "url": "/dinosaurs"
+      }
+    }
+  ],
+  "name": "Main menu",
+  "id": "main"
+}

@@ -1,0 +1,20 @@
+{
+  "name": "gridsome-menu-demo",
+  "private": true,
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "gridsome": "^0.7.0",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "netlify-cms": "^2.10.48"
+  },
+  "devDependencies": {
+    "bulma": "^0.8.2",
+    "gridsome-source-menu": "^0.0.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2"
+  }
+}

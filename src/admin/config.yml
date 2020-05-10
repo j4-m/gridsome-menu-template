@@ -1,0 +1,31 @@
+backend:
+  name: git-gateway
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+collections:
+  - label: "Menus"
+    name: "menus"
+    folder: "src/content/menus"
+    format: json
+    create: true
+    link_field: &link_field
+      label: Link
+      name: link
+      widget: object
+      fields:
+        - {label: "Title", name: "title", widget: "string", hint: "The text that will become a link"}
+        - {label: "URL", name: "url", widget: "string", hint: "e.g. /about or https://www.example.com"}
+    fields:
+      - {label: "ID", name: "id", widget: "string", required: true}
+      - {label: "Name", name: "name", widget: "string", required: true}
+      -
+        label: "Links"
+        name: "links"
+        widget: "list"
+        collapsed: false
+        fields:
+          - *link_field
+          - label: "Child links"
+            name: "children"
+            widget: "list"
+            field: *link_field

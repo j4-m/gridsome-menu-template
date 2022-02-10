@@ -14,7 +14,7 @@
   "devDependencies": {
     "bulma": "^0.8.2",
     "gridsome-source-menu": "^0.0.0",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^8.0.2"
   }
 }
